@@ -40,7 +40,7 @@ namespace Methods
             sepetManager.Add2("Armut", "Yeşil Armut", 12);
             sepetManager.Add2("Elma", "Yeşil Elma", 12);
 
-
+            
 
             Console.WriteLine("Hello World!");
         }
