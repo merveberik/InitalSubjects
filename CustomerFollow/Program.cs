@@ -25,7 +25,7 @@ namespace CustomerFollow
             customer3.Debt = 2020;
 
 
-            Customer[] customer = new Customer[] { customer1, customer2 };
+            Customer[] customer = new Customer[] { customer1, customer2, customer3 };
             CustomerManager customerManager = new CustomerManager();
             Console.WriteLine("This customers Added:");
             customerManager.Add(customer1);
