@@ -5,7 +5,7 @@ using System.Text;
 namespace CustomerFollow
 {
     class CustomerManager
-    {
+    { 
         public void Add(Customer customer)
         {
             Console.WriteLine("Customer Added: " + customer.Name + " " + customer.Surname);
