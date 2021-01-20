@@ -5,7 +5,7 @@ using System.Text;
 namespace CustomerFollow
 {
     class CustomerManager
-    { 
+    {
         public void Add(Customer customer)
         {
             Console.WriteLine("Customer Added: " + customer.Name + " " + customer.Surname);
@@ -15,7 +15,7 @@ namespace CustomerFollow
             foreach (var cust in customers)
             {
                 Console.WriteLine("Id Number:" + cust.Id);
-                Console.WriteLine("Name Surname:" + cust.Name +" "+ cust.Surname);
+                Console.WriteLine("Name Surname:" + cust.Name + " " + cust.Surname);
                 Console.WriteLine("Debt:" + cust.Debt);
             }
         }
