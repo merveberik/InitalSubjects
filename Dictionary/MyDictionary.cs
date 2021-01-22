@@ -34,8 +34,8 @@ namespace DictionaryHomework
         public int Count
         {
             get { return _keys.Length; }
-            
+
         }
-    
+
     }
 }
