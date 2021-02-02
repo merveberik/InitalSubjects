@@ -7,7 +7,7 @@ namespace CustomerFollow
         static void Main(string[] args)
         {
             Customer customer1 = new Customer();
-            customer1.Id = 987456;
+            customer1.Id = 987456; //set Write dersek o da get oluyor
             customer1.Name = "Merve";
             customer1.Surname = "Berik";
             customer1.Debt = 1200;

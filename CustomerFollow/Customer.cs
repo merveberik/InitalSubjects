@@ -7,7 +7,12 @@ namespace CustomerFollow
     class Customer
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+
+        private string _firtsName;
+        public string Name { //ecapsulation 
+            get { return "Mr." + _firtsName; } 
+            set { _firtsName = value; } 
+        }
         public string Surname { get; set; }
         public double Debt { get; set; }
     }
