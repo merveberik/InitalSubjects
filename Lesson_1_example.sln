@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceExample", "Interfa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{7461BC54-508C-4429-80CA-2EAC831B2321}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqExample", "LinqExample\LinqExample.csproj", "{2BC2D65B-0136-4BEF-9BCC-C62C26D97D9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqExample", "LinqExample\LinqExample.csproj", "{2BC2D65B-0136-4BEF-9BCC-C62C26D97D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework", "EntityFramework\EntityFramework.csproj", "{0DA2FB6F-5028-4693-8D32-F88BFD34D0F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{2BC2D65B-0136-4BEF-9BCC-C62C26D97D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BC2D65B-0136-4BEF-9BCC-C62C26D97D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BC2D65B-0136-4BEF-9BCC-C62C26D97D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA2FB6F-5028-4693-8D32-F88BFD34D0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA2FB6F-5028-4693-8D32-F88BFD34D0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA2FB6F-5028-4693-8D32-F88BFD34D0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA2FB6F-5028-4693-8D32-F88BFD34D0F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
